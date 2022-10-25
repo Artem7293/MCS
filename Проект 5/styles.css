@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.menu-container {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: rgb(255, 0, 0);
+    background-color: #ffffff;
+    font-family: 'Arial';
+font-size: 50px;
+line-height: 57px;
+
+}
+.links {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .glass {position: absolute;
+    width: 1440px;
+    height: 950px;
+    left: 220px;
+    top: 140px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #E50043;
+}
+.menu-container1 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: stretch;
+    height: 180px;
+    width: 1040px;
+    left: 451px;
+    top: 80px;
+    padding: 20px;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  .menu-container2 {
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+  padding: 150px 0 0 0; 
+  }
+  .butl {
+    display: flex;
+  justify-content: space-between;
+
+  }
+  .slova {
+    display: flex;
+  justify-content: space-around;
+  padding: 10px; 
+  text-align: center;
+  }
+  .wang {
+    position: relative;
+    left: 100px;
+  }
+  .chiara {
+    position: relative;
+    right: 100px;
+  }
+  .footer {
+    padding: 45px 0;
+    margin-top: 140px;
+    left: 20px;
+    color: #fff;
+    font-family: 'Helvetica';
+    width: 1903px;
+    height: 60px;
+    left: 0px;
+    top: 900px;
+    background: #ff9696;
+  }
